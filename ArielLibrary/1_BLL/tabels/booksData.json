@@ -1,0 +1,32 @@
+[
+    {
+        "IBAN":"9789655173666",
+        "title":"הברבור השחור",
+        "author":"ניקולס טאלב",
+        "publisher":"כנרת, זמורה-ביתן, דביר",
+        "publishDate":"2009",
+        "stasus":"avilable",
+        "price":94,
+        "dateOfPerches":"01/01/2020"
+    },
+    {
+        "IBAN":"9789651322556",
+        "title":"בעל זבוב",
+        "author":"ויליאם גולדינג",
+        "publisher":"עם עובד",
+        "publishDate":"2020",
+        "stasus":"avilable",
+        "price":88,
+        "dateOfPerches":"01/01/2020"
+    },
+    {
+        "IBAN":"9789651323768",
+        "title":"הנסיך הקטן",
+        "author":"אנטואן דה סנט-אכזיפרי",
+        "publisher":"עם עובד",
+        "publishDate":"2020",
+        "stasus":"avilable",
+        "price":79,
+        "dateOfPerches":"01/01/2020"
+    }
+]

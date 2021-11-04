@@ -1,0 +1,32 @@
+[
+    {
+        "firstName":"נחליאל",
+        "lastName":"פוקרוי",
+        "tudatZehut":"245346978",
+        "address":"שדרות ששת הימים 5 תל אביב",
+        "email":"nachpok@gmail.com",
+        "status":"admin",
+        "bookLimit":"3",
+        "userPassword":""
+    },
+    {
+        "firstName":"שמעון",
+        "lastName":"יבין",
+        "tudatZehut":"987654321",
+        "address":"מבצע חירם 21 אריאל",
+        "email":"shimon@gmail.com",
+        "status":"user",
+        "bookLimit":"2",
+        "userPassword":""
+    },
+    {
+        "firstName":"כפיר",
+        "lastName":"חשאי",
+        "tudatZehut":"123456789",
+        "address":"שדרות רמת הגולן 4 אריאל",
+        "email":"kfirh@gmail.com",
+        "status":"user",
+        "bookLimit":"4",
+        "userPassword":""
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "userId":"1",
+        "bookId":"1",
+        "borrowDate":"1-1-2021",
+        "returnDate":"2-1-2021",
+        "comments":""
+    },
+    {
+        "userId":"2",
+        "bookId":"2",
+        "borrowDate":"1-1-2021",
+        "returnDate":"2-1-2021",
+        "comments":""
+    }
+]
