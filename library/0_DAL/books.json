@@ -1,0 +1,59 @@
+{
+    "tableName":"books",
+    "tableQrury":"create table books( bookId int auto_increment not null, primary key (bookId),IBAN nvarchar(13) not null, title nvarchar(100) not null, author nvarchar(100) not null,publisher nvarchar(20) not null,publishYear nvarchar(4) not null,status enum ('buyList','orderd','avilable','lent','decommissinde'),price int not null,dateOfPerches date not null);",
+    "tableData":[
+        
+            {
+                "IBAN":"9789655173666",
+                "title":"The black swan",
+                "author":"Nassim Nicholas Taleb",
+                "publisher":"Kinneret",
+                "publishYear":"2009",
+                "status":"lent",
+                "price":94,
+                "dateOfPerches":"2020-01-01"
+            },
+            {
+                "IBAN":"9789651322556",
+                "title":"Lord of the Flies",
+                "author":"William Golding",
+                "publisher":"Am oved",
+                "publishYear":"2020",
+                "status":"avilable",
+                "price":88,
+                "dateOfPerches":"2020-10-10"
+            },
+            {
+                "IBAN":"9789651323768",
+                "title":"The Little Prince",
+                "author":"Antoine de Saint-Exupéry",
+                "publisher":"Am oved",
+                "publishYear":"2020",
+                "status":"lent",
+                "price":79,
+                "dateOfPerches":"2020-10-10"
+            },
+            {
+                "IBAN":"9789651323765",
+                "title":"Anna Karenina",
+                "author":"Leo Tolstoy",
+                "publisher":"Am oved",
+                "publishYear":"2020",
+                "status":"avilable",
+                "price":99,
+                "dateOfPerches":"2020-10-10"
+            },
+            {
+                "IBAN":"9789651323123",
+                "title":"War and paece",
+                "author":"Leo Tolstoy",
+                "publisher":"Am oved",
+                "publishYear":"2020",
+                "status":"avilable",
+                "price":89,
+                "dateOfPerches":"2020-12-11"
+            }
+        
+    ],
+    "tableDP":["IBAN","title","author","publisher","publishYear","status","price","dateOfPerches"]
+}

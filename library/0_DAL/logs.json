@@ -1,0 +1,33 @@
+{
+    "tableName":"logs",
+    "tableQrury":"CREATE TABLE logs(  logId serial primary key,  userId INT,  bookId INT ,  borrowDate date not null, returnDate date, comment text, FOREIGN KEY (userId ) REFERENCES users(userId), FOREIGN KEY (bookId) REFERENCES books(bookId));",
+    "tableData":[{
+        "userId":1,
+        "bookId":1,
+        "borrowDate":"2020-01-01",
+        "returnDate":"2020-02-02",
+        "comment":"no comment"
+        },{
+        "userId":1,
+        "bookId":2,
+        "borrowDate":"2020-02-02",
+        "returnDate":"2020-02-09",
+        "comment":"no comment"
+        },
+        {
+        "userId":1,
+        "bookId":3,
+        "borrowDate":"2020-01-01",
+        "returnDate":null,
+        "comment":"no comment"
+        },
+        {
+        "userId":2,
+        "bookId":1,
+        "borrowDate":"2020-02-04",
+        "returnDate":null,
+        "comment":"no comment"
+        }
+    ],
+    "tableDP":["userId","bookId","borrowDate","returnDate","comment"]
+}
